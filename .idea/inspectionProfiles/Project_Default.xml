@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tensorflow.examples.tutorials" />
+          <option value="mlp.Dense" />
+          <option value="keras.layers.Conv2DTranspose" />
+          <option value="keras.layers.Conv2D" />
+          <option value="keras.models.Sequential" />
+          <option value="keras.utils.vis_utils.plot_model" />
+          <option value="svm.blobs_random_seed" />
+          <option value="svm.frac_test_split" />
+          <option value="Pickle" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
